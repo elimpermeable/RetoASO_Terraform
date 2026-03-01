@@ -13,7 +13,7 @@ Antes de interactuar con Terraform, es indispensable verificar la conexión con 
 ### 1.1 Verificación de la sesión en AWS CLI
 Se comprobó que la terminal de Ubuntu tenía acceso correcto a la cuenta de AWS Academy (`voclabs`) utilizando el comando de validación de identidad.
 
-![Comprobación de identidad en AWS CLI](aws_account.png)
+![Comprobación de identidad en AWS CLI](techcorp-ad-iac/techcorp-ad-iac/capturas/aws_account.png)
 
 ### 1.2 Creación del Par de Claves (Key Pair)
 Para poder acceder a las máquinas Windows por RDP (y desencriptar la contraseña de Administrador), se generó un par de claves RSA en la consola de AWS nombrado como `terraform`.
